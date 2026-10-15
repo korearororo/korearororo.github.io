@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-15",
+  "source_git_head": "0f91905c0cd6834650498777a7934041264fadeb",
+  "source_files": {
+    "Pokechi.cs": "c0e7fc35bd0a9b03f964a7021eb24c32780fd6f2328774c00d46bafe009fded0",
+    "PokemonCatalog.cs": "f20a3b1e3961dad8894718d7c562d058ecf43be30a0ad7544f74c0e0be4d89bc"
+  },
+  "execution": "원본 PetWindow, PetState, KeyboardHook을 별도 격리 호스트에서 컴파일하고 실행. Cloud*.cs는 컴파일하지 않았으며 계정 인증/네트워크는 사용하지 않음.",
+  "initial": {
+    "stage": 0,
+    "xp": 494,
+    "total": 494,
+    "hatchKey": "bulbasaur"
+  },
+  "recorded_before_hatch": {
+    "total": 497
+  },
+  "after_hatch": {
+    "stage": 1,
+    "xp": 0,
+    "total": 500,
+    "discoveredKeys": [
+      "bulbasaur"
+    ]
+  },
+  "after_restart": {
+    "stage": 1,
+    "xp": 0,
+    "total": 500,
+    "discoveredKeys": [
+      "bulbasaur"
+    ]
+  },
+  "media": {
+    "duration_seconds": 43.8,
+    "size": "1280x900",
+    "fps": 15,
+    "audio": false,
+    "editing": "창 영역 녹화의 검은 여백 제거, 대기 구간 앞뒤 자름, 도감 및 재실행 장면 연결, 자막 추가. 동작/카운터는 합성하지 않음."
+  },
+  "limits": [
+    "서버 동기화 시연 아님",
+    "6세대 전수 검수 아님",
+    "실제 사용자 저장 미사용"
+  ]
+}

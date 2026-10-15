@@ -1,0 +1,246 @@
+{
+  "executed_at": "2026-10-15T00:40:59.505Z",
+  "node": "v24.19.0",
+  "code_commit": "3eb62c8f5b60bb19795fb93034d15b3875d60c6f",
+  "corpus_commit": "62f2a41edcba83a9f53ec6add56697ca9911ab3a",
+  "code_sha256": "2e9742343bdb77b93e465833e42e9c6b578f4ac6ecf9016db94b5f884e0e9b23",
+  "corpus_sha256": "80f4e76ab0f2ffd4c5d582fee8686c927a7ea036abeabcaadc2c4e3420812cd0",
+  "corpus_size": 7,
+  "method": "baseline: 단원·문제·해설에서 키워드 포함 여부, ID 정렬. structured: 원본 PR #8 RagClient 실행. 두 방식 모두 k=8 범위 내 모든 결과 표시.",
+  "limitation": "공개 seed 7건에 대한 조건 필터 동작 비교입니다. AI Hub 전체 데이터나 의미 검색 정확도, 임베딩 검색 우수성을 평가하지 않습니다. 질의는 필터 동작을 확인하기 위해 선정했습니다.",
+  "cases": [
+    {
+      "name": "중3 · 이차방정식 · 쉬움",
+      "keyword": "방정식",
+      "query": {
+        "school_level": "middle",
+        "grade": 3,
+        "topic_code": "9수02-09",
+        "problem_type": "short_answer",
+        "difficulty": "easy",
+        "k": 8
+      },
+      "baseline": [
+        {
+          "id": "seed-9수02-03-001",
+          "grade": 1,
+          "topic": "일차방정식",
+          "topic_code": "9수02-03",
+          "difficulty": "easy",
+          "question": "3*x + 5 = 14"
+        },
+        {
+          "id": "seed-9수02-03-002",
+          "grade": 1,
+          "topic": "일차방정식",
+          "topic_code": "9수02-03",
+          "difficulty": "easy",
+          "question": "4*(x - 1) = 8"
+        },
+        {
+          "id": "seed-9수02-07-001",
+          "grade": 2,
+          "topic": "연립일차방정식",
+          "topic_code": "9수02-07",
+          "difficulty": "medium",
+          "question": "x + y = 5; x - y = 1"
+        },
+        {
+          "id": "seed-9수02-09-001",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "easy",
+          "question": "x**2 - 5*x + 6 = 0"
+        },
+        {
+          "id": "seed-9수02-09-002",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "medium",
+          "question": "x**2 + 4*x - 12 = 0"
+        },
+        {
+          "id": "seed-9수02-09-003",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "easy",
+          "question": "x**2 - 4*x + 4 = 0"
+        }
+      ],
+      "baseline_matching": 2,
+      "structured": [
+        {
+          "id": "seed-9수02-09-001",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "easy",
+          "question": "x**2 - 5*x + 6 = 0",
+          "score": 0.65
+        },
+        {
+          "id": "seed-9수02-09-003",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "easy",
+          "question": "x**2 - 4*x + 4 = 0",
+          "score": 0.65
+        }
+      ],
+      "structured_matching": 2
+    },
+    {
+      "name": "중1 · 일차방정식 · 쉬움",
+      "keyword": "방정식",
+      "query": {
+        "school_level": "middle",
+        "grade": 1,
+        "topic_code": "9수02-03",
+        "problem_type": "short_answer",
+        "difficulty": "easy",
+        "k": 8
+      },
+      "baseline": [
+        {
+          "id": "seed-9수02-03-001",
+          "grade": 1,
+          "topic": "일차방정식",
+          "topic_code": "9수02-03",
+          "difficulty": "easy",
+          "question": "3*x + 5 = 14"
+        },
+        {
+          "id": "seed-9수02-03-002",
+          "grade": 1,
+          "topic": "일차방정식",
+          "topic_code": "9수02-03",
+          "difficulty": "easy",
+          "question": "4*(x - 1) = 8"
+        },
+        {
+          "id": "seed-9수02-07-001",
+          "grade": 2,
+          "topic": "연립일차방정식",
+          "topic_code": "9수02-07",
+          "difficulty": "medium",
+          "question": "x + y = 5; x - y = 1"
+        },
+        {
+          "id": "seed-9수02-09-001",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "easy",
+          "question": "x**2 - 5*x + 6 = 0"
+        },
+        {
+          "id": "seed-9수02-09-002",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "medium",
+          "question": "x**2 + 4*x - 12 = 0"
+        },
+        {
+          "id": "seed-9수02-09-003",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "easy",
+          "question": "x**2 - 4*x + 4 = 0"
+        }
+      ],
+      "baseline_matching": 2,
+      "structured": [
+        {
+          "id": "seed-9수02-03-001",
+          "grade": 1,
+          "topic": "일차방정식",
+          "topic_code": "9수02-03",
+          "difficulty": "easy",
+          "question": "3*x + 5 = 14",
+          "score": 0.65
+        },
+        {
+          "id": "seed-9수02-03-002",
+          "grade": 1,
+          "topic": "일차방정식",
+          "topic_code": "9수02-03",
+          "difficulty": "easy",
+          "question": "4*(x - 1) = 8",
+          "score": 0.65
+        }
+      ],
+      "structured_matching": 2
+    },
+    {
+      "name": "중3 · 이차방정식 · 어려움 (해당 문항 없음)",
+      "keyword": "방정식",
+      "query": {
+        "school_level": "middle",
+        "grade": 3,
+        "topic_code": "9수02-09",
+        "problem_type": "short_answer",
+        "difficulty": "hard",
+        "k": 8
+      },
+      "baseline": [
+        {
+          "id": "seed-9수02-03-001",
+          "grade": 1,
+          "topic": "일차방정식",
+          "topic_code": "9수02-03",
+          "difficulty": "easy",
+          "question": "3*x + 5 = 14"
+        },
+        {
+          "id": "seed-9수02-03-002",
+          "grade": 1,
+          "topic": "일차방정식",
+          "topic_code": "9수02-03",
+          "difficulty": "easy",
+          "question": "4*(x - 1) = 8"
+        },
+        {
+          "id": "seed-9수02-07-001",
+          "grade": 2,
+          "topic": "연립일차방정식",
+          "topic_code": "9수02-07",
+          "difficulty": "medium",
+          "question": "x + y = 5; x - y = 1"
+        },
+        {
+          "id": "seed-9수02-09-001",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "easy",
+          "question": "x**2 - 5*x + 6 = 0"
+        },
+        {
+          "id": "seed-9수02-09-002",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "medium",
+          "question": "x**2 + 4*x - 12 = 0"
+        },
+        {
+          "id": "seed-9수02-09-003",
+          "grade": 3,
+          "topic": "이차방정식",
+          "topic_code": "9수02-09",
+          "difficulty": "easy",
+          "question": "x**2 - 4*x + 4 = 0"
+        }
+      ],
+      "baseline_matching": 0,
+      "structured": [],
+      "structured_matching": 0
+    }
+  ]
+}
