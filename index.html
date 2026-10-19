@@ -119,35 +119,34 @@
 </div>
 <div class="engine">
 <span class="engine-icon">⌕</span><div>
-<strong>RagClient</strong><small>조건 필터 + 텍스트 점수</small>
+<strong>참고 문항 검색</strong><small>조건 필터 + 텍스트 점수</small>
 </div>
 <span class="code-chip">{ }</span>
 </div>
 <div class="flow-line short"><b>↓</b></div>
 <div class="result-chips">
-<span>참조 문항</span><span>source_refs</span><b>→</b><span class="chip-accent">생성 단계</span>
+<span>참조 문항</span><span>문항 정보</span><b>→</b><span class="chip-accent">검색 결과</span>
 </div>
 </div></a><div class="project-content">
 <p class="project-label"><span>AI · DATA</span><span>02</span></p>
 <h3><a href="projects/openmath.html">OpenMath</a></h3>
-<p class="project-role">수학 문항 생성 팀 · 검색·검증·선택 UI<br>2026.03–2026.06 · 3인 팀</p>
-<p class="project-summary">생성에 참고할 문항을 학년·단원 조건으로 찾는 검색 클라이언트를 구현하고, 생성·검증 흐름과 문항 선택 UI를 보강했습니다.</p>
+<p class="project-role">2026.03–2026.06 · 3인 팀 · 문항 검색·검증·선택 화면</p>
+<p class="project-summary">학년과 단원에 맞는 수학 문제를 찾고 AI로 새 문제를 만드는 서비스입니다. 문항 검색을 구현하고 정답 검증과 기준 문항 선택 화면을 개선했습니다.</p>
 <dl class="project-facts">
 <div>
 <dt>판단</dt>
-<dd>필수 조건 필터와 텍스트 점수·ID 정렬을 분리</dd>
+<dd>학년·단원 조건을 먼저 확인하고, 남은 문항을 정렬</dd>
 </div>
 <div>
 <dt>반영</dt>
-<dd>검색 #8 · 품질·UI #12·#13 병합</dd>
+<dd>검색·정답 비교·기준 문항 미리보기를 팀 코드에 반영</dd>
 </div>
 </dl>
 <div class="tags">
 <span>TypeScript</span><span>Node.js</span><span>JSONL</span>
 </div>
-<p class="project-outcome">공개 seed 7건 · 질의 3개로 필터 동작 재현</p>
+<p class="project-outcome">같은 키워드라도 학년과 단원에 따라 달라지는 검색 결과를 공개했습니다.</p>
 <div class="evidence-shortcut"><a href="projects/openmath.html#comparison">실제 검색 결과 비교 ↗</a></div>
-<p class="card-scope">별도 연계 PR #10은 전체 미병합</p>
 <a class="case-link" href="projects/openmath.html">검색 설계 읽기 <span>↗</span></a>
 </div></article><article class="project-card"><a class="project-image pokechi-image" href="projects/pokechi.html" tabindex="-1" aria-hidden="true"><div class="pet-visual">
 <div class="visual-meta">
