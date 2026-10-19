@@ -6,11 +6,11 @@ https://korearororo.github.io/
 
 ## 구성
 
-- index.html: 프로젝트 목록, 경력과 소개
-- projects/openmath.html: RAG 검색과 생성 흐름 연계
+- index.html: 대표 작업과 학력·기술 요약
+- projects/openmath.html: 수학 문항 검색·검증과 공개 예시 비교
 - projects/youdongsan.html: 공개 가능한 실무 사례 요약
 - projects/pokechi.html: 독립 앱 확장과 진행 동기화
-- styles.css / app.js: 반응형 스타일, 모바일 메뉴와 인쇄
+- editorial.css / app.js: 반응형 스타일, 모바일 메뉴와 인쇄
 
 ## 로컬 확인
 
@@ -20,8 +20,8 @@ Python이 설치된 환경에서 `python -m http.server 4187 --bind 127.0.0.1`�
 ## 내용과 자산
 
 회사 내부 자료·원문·고객 정보·인증 정보·비공개 코드는 포함하지 않습니다.
-프로젝트 다이어그램은 구현 구조 요약이며 실제 제품 화면으로 표시하지 않습니다.
-Pokechi 이미지는 실제 DrawInfoCard 렌더러로 생성한 UI 검토 이미지이며 표시된 진행 값은 예시입니다.
+OpenMath 비교는 공개 예시 문항 7개와 질의 3개에서 조건 필터 동작을 보여줍니다. 전체 검색 정확도나 생성 품질 평가는 아닙니다.
+Pokechi 영상은 실제 Windows 앱의 로컬 입력·부화·저장 복원 시연입니다. 로그인과 서버 동기화는 영상에 포함되지 않습니다.
 원본 Pokechi 아이디어 및 MIT 자산, 별도 출처의 그래픽을 활용한 프로젝트의 화면을 소개합니다. 앱 바이너리나 스프라이트 원본을 배포하지 않습니다.
 포트폴리오 공개가 회사 자료나 프로젝트 자산 전체에 대한 재배포 허가를 의미하지 않습니다.
 

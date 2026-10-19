@@ -4,201 +4,37 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>한진우 | Software Developer</title>
-<meta name="description" content="한진우의 소프트웨어 개발과 AI 응용 경험. 공시 분석 검증·저장 복구, 수학 문항 검색, Windows 앱의 상태 보존을 실제 근거와 함께 소개합니다.">
-<meta name="theme-color" content="#101725">
+<meta name="description" content="한진우의 개발 포트폴리오. 유동산의 AI 보고서 근거 검증과 저장 복구, OpenMath 문항 검색, Pokechi Windows 앱의 기록 보존을 소개합니다.">
+<meta name="theme-color" content="#f8f6f1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="한진우 | Software Developer">
-<meta property="og:description" content="한진우의 소프트웨어 개발과 AI 응용 경험. 공시 분석 검증·저장 복구, 수학 문항 검색, Windows 앱의 상태 보존을 실제 근거와 함께 소개합니다.">
+<meta property="og:description" content="AI 보고서의 근거를 확인하고 저장 오류를 복구한 실무 경험과 두 개발 프로젝트를 소개합니다.">
 <meta property="og:image" content="https://korearororo.github.io/assets/social.svg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="editorial.css">
 <link rel="canonical" href="https://korearororo.github.io/">
 <script src="app.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">본문으로 이동</a>
 <header class="site-header"><div class="nav-wrap">
-<a class="brand" href="index.html" aria-label="한진우 포트폴리오 홈">HJ<span>.</span></a>
-<button class="menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="메뉴 열기"><span></span><span></span></button>
-<nav id="navigation" aria-label="주요 메뉴"><a href="index.html#projects">프로젝트</a><a href="index.html#experience">경험</a><a href="index.html#about">소개</a><a class="nav-github" href="https://github.com/korearororo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+<a class="brand" href="index.html">한진우</a><button class="menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="메뉴 열기"><span></span><span></span></button>
+<nav id="navigation" aria-label="주요 메뉴"><a href="index.html#projects">작업 사례</a><a href="index.html#about">학력·기술</a><a class="nav-github" href="https://github.com/korearororo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
 </div></header>
 <main id="main">
 <section class="hero"><div class="hero-inner">
-<div class="hero-copy">
-<p class="eyebrow"><span class="live-dot"></span> SOFTWARE DEVELOPMENT · AI APPLICATIONS</p>
-<h1>한진우<span class="name-en">Han Jinwoo</span>
-</h1>
-<h2>데이터를 다루고,<br><span>결과를 검증합니다.</span>
-</h2>
-<p class="hero-description">데이터 처리와 결과 검증을 중심으로 소프트웨어를 개발합니다. 공시 기반 AI 보고서의 근거 검증과 저장 오류 복구, 수학 문항 검색, Windows 앱의 저장·동기화 기능을 구현·개선했습니다.</p>
-<div class="hero-actions">
-<a class="button primary" href="#projects">대표 사례 보기 <span>↓</span></a><a class="button resume-button" href="assets/resume/han-jinwoo-resume-public-v3-20261019.pdf" target="_blank" rel="noopener">이력서 PDF <span>↗</span></a>
-</div>
-<div class="hero-proof">
-<span>Python · SQL · OpenAI API</span><span>TypeScript · Node.js</span><span>C# · Supabase</span>
-</div>
-</div>
-<div class="hero-art"><div class="review-board">
-<p class="eyebrow">근거 바로가기</p>
-<a href="projects/youdongsan.html#troubleshooting"><span>01 · AI 결과 검증</span><h3>입력에 없는 판단을 찾고 고치기</h3>
-<p>근거 검증 기준 · 저장 실패 복구</p>
-<strong>유동산의 문제 해결 사례 ↗</strong></a>
-<a href="projects/openmath.html#comparison"><span>02 · 데이터 검색</span><h3>학년과 단원에 맞는 문항 찾기</h3>
-<p>공개 seed 7건 · 질의 3개</p>
-<strong>실제 입력과 검색 결과 비교 ↗</strong></a>
-<a href="projects/pokechi.html#demo"><span>03 · 상태 보존</span><h3>키 입력부터 저장 복원까지</h3>
-<p>격리 저장으로 녹화한 로컬 실행</p>
-<strong>44초 시연 영상 ↗</strong></a>
-</div></div>
-</div>
-<div class="hero-bottom">
-<span>SELECTED WORK · 2026</span><a href="#projects">아래에서 자세히 보기 ↓</a>
-</div></section>
-<section id="projects" class="section projects-section"><div class="section-heading">
-<div>
-<p class="eyebrow">SELECTED WORK</p>
-<h2>문제와 판단,<br>확인한 결과.</h2>
-</div>
-<p>대표 실무 사례부터 살펴보고,<br>검색과 상태 보존 경험으로 이어집니다.</p>
-</div>
-<div class="project-grid">
-<article class="project-card"><a class="project-image youdongsan-image" href="projects/youdongsan.html" tabindex="-1" aria-hidden="true"><div class="work-visual" role="img" aria-label="공시 입력에서 AI 분석과 근거 검토를 거쳐 결과를 저장하는 처리 구조">
-<div class="visual-meta">
-<span>ANALYSIS WORKFLOW</span><span class="status-dot">구현 구조</span>
-</div>
-<div class="report-paper">
-<span class="report-label">공시자료 기반 분석</span><div class="paper-line long"></div>
-<div class="paper-line"></div>
-<div class="evidence-line">
-<span>판단</span><i></i><b>↔</b><span>원문 근거</span>
-</div>
-<div class="paper-line long"></div>
-<div class="paper-line short-line"></div>
-</div>
-<div class="work-steps">
-<span>입력 구성</span><b>→</b><span>GPT 분석</span><b>→</b><span class="highlight">검증 · 저장</span>
-</div>
-<div class="metric-band">
-<strong>2<span>건</span></strong><p>저장 실패 복구<br><span>기존 273건과 합쳐 275건 저장</span></p>
-</div>
-</div></a><div class="project-content">
-<p class="project-label"><span>WORK EXPERIENCE</span><span>01</span></p>
-<h3><a href="projects/youdongsan.html">유동산 업무 자동화</a></h3>
-<p class="project-role">사내 분석·시세조사 업무 · 연구개발부문 매니저<br>2026.09–현재</p>
-<p class="project-summary">공시 기반 AI 보고서의 근거 누락과 저장 실패를 다루고, 주변 실거래 조회·환산·비교표 작성 흐름을 개선했습니다.</p>
-<dl class="project-facts">
-<div>
-<dt>판단</dt>
-<dd>오류가 난 저장 단계부터 기존 응답으로 복구</dd>
-</div>
-<div>
-<dt>확인</dt>
-<dd>실패 2건 복구 후 Batch 275건 저장 완료</dd>
-</div>
-</dl>
-<div class="tags">
-<span>Python</span><span>OpenAI API</span><span>Java</span><span>SQL</span>
-</div>
-<p class="project-outcome">기존 조사표 5개 · 실거래 표본 35건 대조</p>
-<div class="evidence-shortcut"><a href="projects/youdongsan.html#verification">복구 결과와 표본 범위 ↗</a></div>
-<a class="case-link" href="projects/youdongsan.html">대표 사례 읽기 <span>↗</span></a>
-</div></article><article class="project-card"><a class="project-image openmath-image" href="projects/openmath.html" tabindex="-1" aria-hidden="true"><div class="rag-visual" role="img" aria-label="JSONL 문항을 조건 필터와 텍스트 점수로 검색하고 생성 단계로 전달하는 구조">
-<div class="visual-meta">
-<span>RETRIEVAL PIPELINE</span><span class="status-dot">구현 구조</span>
-</div>
-<div class="document-stack">
-<div class="data-sheet sheet-back"></div>
-<div class="data-sheet">
-<span class="file-kind">JSONL</span><strong>AI Hub 문항</strong><i></i><i></i><i></i><div class="mini-tags">
-<span>학년</span><span>단원</span><span>난이도</span>
-</div>
-</div>
-</div>
-<div class="flow-line">
-<span></span><b>↓</b>
-</div>
-<div class="engine">
-<span class="engine-icon">⌕</span><div>
-<strong>참고 문항 검색</strong><small>조건 필터 + 텍스트 점수</small>
-</div>
-<span class="code-chip">{ }</span>
-</div>
-<div class="flow-line short"><b>↓</b></div>
-<div class="result-chips">
-<span>참조 문항</span><span>문항 정보</span><b>→</b><span class="chip-accent">검색 결과</span>
-</div>
-</div></a><div class="project-content">
-<p class="project-label"><span>AI · DATA</span><span>02</span></p>
-<h3><a href="projects/openmath.html">OpenMath</a></h3>
-<p class="project-role">2026.03–2026.06 · 3인 팀 · 문항 검색·검증·선택 화면</p>
-<p class="project-summary">학년과 단원에 맞는 수학 문제를 찾고 AI로 새 문제를 만드는 서비스입니다. 문항 검색을 구현하고 정답 검증과 기준 문항 선택 화면을 개선했습니다.</p>
-<dl class="project-facts">
-<div>
-<dt>판단</dt>
-<dd>학년·단원 조건을 먼저 확인하고, 남은 문항을 정렬</dd>
-</div>
-<div>
-<dt>반영</dt>
-<dd>검색·정답 비교·기준 문항 미리보기를 팀 코드에 반영</dd>
-</div>
-</dl>
-<div class="tags">
-<span>TypeScript</span><span>Node.js</span><span>JSONL</span>
-</div>
-<p class="project-outcome">같은 키워드라도 학년과 단원에 따라 달라지는 검색 결과를 공개했습니다.</p>
-<div class="evidence-shortcut"><a href="projects/openmath.html#comparison">실제 검색 결과 비교 ↗</a></div>
-<a class="case-link" href="projects/openmath.html">검색 설계 읽기 <span>↗</span></a>
-</div></article><article class="project-card"><a class="project-image pokechi-image" href="projects/pokechi.html" tabindex="-1" aria-hidden="true"><div class="pet-visual">
-<div class="visual-meta">
-<span>POKECHI DESKTOP</span><span class="status-dot">UI 검토 이미지</span>
-</div>
-<div class="pet-caption">
-<span class="tiny-key">A</span><span class="tiny-key">B</span><span class="tiny-key wide">SPACE</span><span class="typing-line"></span>
-</div>
-<div class="pet-cards">
-<img src="assets/pokechi-card-1.png" alt="Pokechi 앱의 피카츄 성장 카드 미리보기" width="260" height="84"><img src="assets/pokechi-card-3.png" alt="Pokechi 앱의 나무지기 성장 카드 미리보기" width="260" height="84">
-</div>
-<div class="sync-caption">
-<span>로컬 저장</span><span class="sync-arrows">⇄</span><span>계정 진행 동기화</span>
-</div>
-<p class="visual-footnote">앱 렌더러로 만든 미리보기 · 진행 값은 예시</p>
-</div></a><div class="project-content">
-<p class="project-label"><span>DESKTOP APPLICATION</span><span>03</span></p>
-<h3><a href="projects/pokechi.html">Pokechi</a></h3>
-<p class="project-role">타이핑 기반 데스크톱 펫 · 독립 앱 확장<br>2026.09–현재 · 개인 프로젝트</p>
-<p class="project-summary">원본 VS Code 확장의 아이디어·자산을 바탕으로 독립 Windows 앱을 만들고, 로컬 진행 저장과 계정 동기화를 확장했습니다.</p>
-<dl class="project-facts">
-<div>
-<dt>판단</dt>
-<dd>예상 버전 비교 → 충돌 병합 → 재시도</dd>
-</div>
-<div>
-<dt>한계</dt>
-<dd>경험치 최대값 병합 · 다른 물리 PC 검증은 남음</dd>
-</div>
-</dl>
-<div class="tags">
-<span>C#</span><span>WinForms</span><span>Supabase</span><span>SQL</span>
-</div>
-<p class="project-outcome">입력·부화·도감·로컬 저장 복원 시연</p>
-<div class="evidence-shortcut"><a href="projects/pokechi.html#demo">44초 로컬 시연 ↗</a></div>
-<p class="card-scope">영상에는 로그인·서버 통신 미포함</p>
-<a class="case-link" href="projects/pokechi.html">저장·동기화 설계 읽기 <span>↗</span></a>
-</div></article>
-</div></section>
-<section id="experience" class="section experience-section"><div class="section-heading"><div>
-<p class="eyebrow">EXPERIENCE</p>
-<h2>경력.</h2>
-</div></div>
-<div class="timeline"><article><div class="timeline-date">2026.09–현재<br><small>종료 예정 2026.12</small>
-</div>
-<div>
-<span class="experience-type">WORK EXPERIENCE</span><h3>유동산 · 연구개발부문 매니저</h3>
-<p>공시 기반 AI 보고서의 검증·저장 흐름과 부동산 시세조사 자동화 기능을 개선했습니다.</p>
-<a href="projects/youdongsan.html">담당 업무와 문제 해결 근거 ↗</a>
-</div></article></div></section><section id="about" class="section about-section"><div class="about-intro">
-<p class="eyebrow">BACKGROUND</p>
-<h2>학력과 자격.</h2>
+<p class="eyebrow">한진우 <span aria-hidden="true">/</span> 소프트웨어 개발자</p>
+<h1>AI 보고서의 <em>근거</em>를 확인하고,<br>저장 실패를 <em>복구</em>했습니다.</h1><p class="hero-description">유동산 연구개발부문에서 공시자료를 바탕으로 만든 AI 보고서를 검토하고, 저장에 실패한 결과를 기존 응답으로 복구했습니다. 팀 프로젝트에서는 학년·단원에 맞는 수학 문항 검색을, 개인 프로젝트에서는 Windows 앱의 저장과 동기화를 구현했습니다.</p>
+<div class="hero-actions"><a class="button primary" href="#projects">작업 사례 보기 <span aria-hidden="true">↘</span></a><a class="button resume-button" href="assets/resume/han-jinwoo-resume-public-v3-20261019.pdf" target="_blank" rel="noopener">이력서 PDF <span aria-hidden="true">↗</span></a></div>
+</div></section><section id="projects" class="section projects-section">
+<div class="section-heading"><p class="eyebrow">선택한 작업</p><h2>실제로 만들고 고친 것</h2></div>
+<div class="project-list">
+<article class="project-row"><div class="project-meta"><span class="project-number">01</span><span>실무 · 유동산</span><small>2026.09–현재</small></div><div class="project-main"><h3><a href="projects/youdongsan.html">근거 없는 판단을 찾고,<br>저장되지 않은 결과를 복구했습니다.</a></h3><p>공시자료를 AI로 분석한 보고서에서 원문으로 확인할 수 없는 표현을 찾아 검증 기준을 고쳤습니다. 외화 단위 처리 오류로 저장에 실패한 2건은 이미 받은 응답으로 복구해, 배치 결과 275건의 저장을 마쳤습니다.</p><div class="project-evidence"><span>제가 맡은 일</span><p>보고서 근거 검증 · 저장 복구 · 실거래 조회와 비교표 작성</p></div><a class="project-link" href="projects/youdongsan.html">유동산 사례 읽기 <span aria-hidden="true">↗</span></a></div></article>
+<article class="project-row"><div class="project-meta"><span class="project-number">02</span><span>팀 프로젝트 · OpenMath</span><small>2026.03–06 · 3인 팀</small></div><div class="project-main"><h3><a href="projects/openmath.html">같은 단어가 있어도, 학년과 단원에 맞는 문제만 찾았습니다.</a></h3><p>수학 문제 생성 서비스에서 참고할 문항을 찾는 검색 기능을 구현했습니다. 학년·단원 등의 조건을 먼저 적용한 뒤 문항을 정렬하고, 정답 검증과 기준 문항 선택 화면도 개선했습니다.</p><div class="project-evidence"><span>확인할 수 있는 것</span><p>공개 예시 문항 7개에서 조건 적용 전후 검색 결과 비교</p></div><a class="project-link" href="projects/openmath.html">OpenMath 사례 읽기 <span aria-hidden="true">↗</span></a></div></article>
+<article class="project-row"><div class="project-meta"><span class="project-number">03</span><span>개인 프로젝트 · Pokechi</span><small>2026.09–현재</small></div><div class="project-main"><h3><a href="projects/pokechi.html">앱을 다시 열어도 키운 기록이 남도록 만들었습니다.</a></h3><p>VS Code 확장의 아이디어와 자산을 바탕으로 독립 Windows 데스크톱 펫을 만들었습니다. 입력에 따른 성장과 로컬 기록 복원, 계정별 동기화를 구현하고 같은 기록을 동시에 저장할 때의 충돌을 처리했습니다.</p><div class="project-evidence"><span>직접 볼 수 있는 것</span><p>키 입력·부화·도감 등록·로컬 저장 복원 44초 영상</p></div><a class="project-link" href="projects/pokechi.html#demo">Pokechi 영상과 사례 보기 <span aria-hidden="true">↗</span></a></div></article>
+</div></section><section id="about" class="section about-section"><div class="about-intro">
+<p class="eyebrow">이력과 기술</p>
+<h2>배운 것과 써 온 도구</h2>
 <div class="education-summary">
 <h3>중앙대학교</h3>
 <p>소프트웨어학부 소프트웨어학과</p>
@@ -219,35 +55,31 @@
 <div class="skill-list">
 <div>
 <span>01</span><div>
-<h3>분석 결과 처리</h3>
-<p>Python · SQL · OpenAI API</p>
-<small>입력 구성, 사실·내용 보존 검사, 조건부 저장</small>
+<h3>Python · SQL · OpenAI API</h3>
+<p>공시자료 분석 결과의 검증과 저장</p>
 </div>
 </div>
 <div>
 <span>02</span><div>
-<h3>문항 검색과 검증</h3>
-<p>TypeScript · Node.js · JSONL</p>
-<small>문항 변환, 조건 필터와 정렬, 검증·선택 화면 개선</small>
+<h3>TypeScript · Node.js · JSONL</h3>
+<p>수학 문항 검색과 정답 확인</p>
 </div>
 </div>
 <div>
 <span>03</span><div>
-<h3>앱과 상태 관리</h3>
-<p>C# · WinForms · Supabase</p>
-<small>로컬 진행, 계정별 저장과 충돌 병합</small>
+<h3>C# · WinForms · Supabase</h3>
+<p>Windows 앱의 로컬 저장과 계정 동기화</p>
 </div>
 </div>
-<p class="working-note">AI 도구를 활용해 구현·수정을 진행하며, 요구사항과 검증 기준을 정하고 결과를 검토합니다.</p>
 </div></section><section class="contact-strip"><div>
-<p class="eyebrow">CONTACT AND RESUME</p>
-<h2>연락과 개발 기록.</h2>
-<p>공개 연락 방법과 프로젝트 원본은 GitHub에서 확인할 수 있습니다.</p>
+<p class="eyebrow">연락과 이력서</p>
+<h2>더 자세한 이력과 코드를 보시려면</h2>
+<p>이력서에는 경력과 학력을, GitHub에는 공개할 수 있는 프로젝트 코드를 정리했습니다.</p>
 </div>
 <div class="contact-actions">
 <a class="button dark" href="https://github.com/korearororo" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a><a class="button outline" href="assets/resume/han-jinwoo-resume-public-v3-20261019.pdf" target="_blank" rel="noopener">이력서 PDF <span>↗</span></a>
 </div></section></main><footer class="footer"><div>
-<a class="brand" href="index.html">HJ<span>.</span></a><p>한진우 · Software Developer</p>
+<a class="brand" href="index.html">한진우</a><p>Software Developer</p>
 </div>
 <a href="https://github.com/korearororo" target="_blank" rel="noopener noreferrer">GitHub에서 더 보기 ↗</a><span class="copyright">© 2026 Han Jinwoo</span></footer>
 </body>
