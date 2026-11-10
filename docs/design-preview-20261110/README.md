@@ -1,6 +1,6 @@
 # 포트폴리오 UI 시안 · 2026-11-10
 
-현재 공개 사이트의 기준 커밋은 `9ddd248533bc9b590532e7724ef9a9b1beca8bbd`이며, 이 시안은 `design/portfolio-ui-preview-20261110` 브랜치에서만 작업했다. `main`과 GitHub Pages 배포는 변경하지 않았다.
+디자인 변경 전 공개 사이트의 기준 커밋은 `9ddd248533bc9b590532e7724ef9a9b1beca8bbd`다. 디자인 시안은 `design/portfolio-ui-preview-20261110` 브랜치에만 있으며 공개하지 않았다. 이후 공개 이력서 PDF와 다운로드 링크만 `main`의 `4f70e0ec91d4de4530c4f7637e5542a23545e184`에서 갱신했다.
 
 ## 디자인 방향
 
